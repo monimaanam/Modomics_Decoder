@@ -7,7 +7,7 @@ git clone https://github.com/monimaanam/Modomics_Mismatch_Decoder
 
 Modomics_Decoder_V1.py 
 ----------------------------------------------------------------
-This script will take any pasted unicode RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Simply enter a RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted. A second prompt will display all nucleotide positions enumerated, highlighting modified base positions. 
+This script will take any pasted unicode RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Simply enter an RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted. A second prompt will display all nucleotide positions enumerated, highlighting modified base positions. 
 
 Example Output
 ----------------------------------------------------------------
