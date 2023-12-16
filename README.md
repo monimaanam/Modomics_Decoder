@@ -2,7 +2,7 @@
 Installation
 ----------------------------------------------------------------
 ```
-git clone https://github.com/monimaanam/Modomics_Mismatch_Decoder
+git clone https://github.com/monimaanam/Modomics_Sequence_Decoder
 ```
 
 Modomics_Decoder_V1.py 
