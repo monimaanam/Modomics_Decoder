@@ -2,12 +2,30 @@
 Installation
 ----------------------------------------------------------------
 ```
-git clone https://github.com/monimaanam/Modomics_Sequence_Decoder
+git clone https://github.com/monimaanam/Modomics_Decoder
 ```
 
-Modomics_Decoder_V1.py 
+Modomics_Decoder.py 
 ----------------------------------------------------------------
-This script will take any pasted unicode RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Simply enter an RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted. A second prompt will display all nucleotide positions enumerated, highlighting modified base positions. 
+This script will take any pasted unicode RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Enter an RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted. A second prompt will display all nucleotide positions enumerated, highlighting modified base positions.
+
+Command Line Interface
+----------------------------------------------------------------
+```
+USAGE: 
+    python Modomics_Decoder.py
+    python Modomics_Decoder.py --input <rna_sequence> --all
+    python Modomics_Decoder.py -i <rna_sequence> -a > output_filename.txt
+          
+FLAGS: (optional)
+    none             If flags are excluded, the program will provide input prompts. 
+    -h --help:       Displays the help menu (usage, flags, arguments). 
+    -i --input:      Input RNA sequence as argument. RNA sequences must be in MODOMICS code. 
+    -a --all:        Displays both the modifications table and the sequence positions list. 
+    -t --table:      Displays only the modifications table without the sequence positions list
+    -l --list:       Displays only the enumerated sequence position list without the modifications table.
+    -v --version:    Displays the current version (Version 1.1). 
+```
 
 Example Output
 ----------------------------------------------------------------
