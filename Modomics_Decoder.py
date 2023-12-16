@@ -236,7 +236,7 @@ Modomics Sequence Decoder | Version 1.1
 Processes any RNA sequence from MODOMICS database (https://genesilico.pl/modomics/sequences/) 
 and outputs readable visualization of modifications and nucleotide positions. 
 ----------------------------------------------------------------------------------------------                               
-                                        https://github.com/monimaanam/Modomics_Sequence_Decoder   
+                                                https://github.com/monimaanam/Modomics_Decoder   
             
 USAGE: 
     python Modomics_Decoder.py
