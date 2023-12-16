@@ -266,7 +266,7 @@ if version_flag:
 
 # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- #
     
-# If the RNA sequence was specified by -i, save it
+# If the RNA sequence was specified by -i, store the sequence
 for flag, argument in options:
     if flag in ['-i', '--input']:
         sequence = argument
@@ -275,7 +275,7 @@ if input_flag:
     print(f'\nUNICODE Sequence: {sequence}')
     print('')
 
-# If no -i tag was provided, prompt for the RNA sequence
+# If no -i flag was provided, prompt for the RNA sequence
 if not input_flag:
     sequence = input('\nUNICODE Sequence: ')
     print('')
