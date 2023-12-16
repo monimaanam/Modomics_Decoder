@@ -25,6 +25,9 @@ FLAGS: (optional)
     -t --table:      Displays the modifications table.
     -l --list:       Displays the enumerated sequence position list.
     -v --version:    Displays the current version (Version 1.1). 
+
+SAVING OUTPUTS:
+    Use '>' to write outputs to files; -i argument will be required along with -a, -t, or -l.
 ```
 
 Example Output
