@@ -7,7 +7,7 @@ git clone https://github.com/monimaanam/Modomics_Decoder
 
 Modomics_Decoder.py 
 ----------------------------------------------------------------
-This script will take any copies unicode Modomics RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Enter an RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted or through the command line interface. A second prompt can be called to display all nucleotide positions enumerated, highlighting modified base positions.
+This script will take any copies unicode Modomics RNA sequence (from: https://genesilico.pl/modomics/sequences/) and annotate each modified position for easy viewing. Enter an RNA unicode sequence of interest (e.g., GGGGCUAU...) when prompted or through the CLI. A second prompt can be called to display all nucleotide positions enumerated, highlighting modified base positions.
 
 Command Line Interface
 ----------------------------------------------------------------
