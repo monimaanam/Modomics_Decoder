@@ -283,12 +283,12 @@ if not input_flag:
 # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- # ----- #
 
 # If table should be shown, then print lines of the table using the dictionary to decode each modification
-if all_flag or table_flag or no_flag or input_flag:
+if all_flag or table_flag or no_flag or input_flag and not list_flag:
     for symbol, mod in mod_dict.items():
             if sequence.find(symbol) != -1:
                 print(f'position: {sequence.find(symbol)} | symbol: {symbol} | short names: {mod}')   
 
-if all_flag or table_flag or no_flag or input_flag:
+if all_flag or table_flag or no_flag or input_flag and not list_flag:
     print('') # Spacer
 
 if table_flag and not all_flag and not list_flag: # Exit if list should not be displayed
