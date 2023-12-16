@@ -244,12 +244,12 @@ USAGE:
     python Modomics_Decoder.py -i <rna_sequence> -a > output_filename.txt
           
 FLAGS: (optional)
-    none             If flags are excluded, the program will provide input prompts. 
+    none             If flags are excluded, the script will prompt for inputs. 
     -h --help:       Displays the help menu (usage, flags, arguments). 
     -i --input:      Input RNA sequence as argument. RNA sequences must be in MODOMICS code. 
     -a --all:        Displays both the modifications table and the sequence positions list. 
-    -t --table:      Displays only the modifications table without the sequence positions list
-    -l --list:       Displays only the enumerated sequence position list without the modifications table.
+    -t --table:      Displays the modifications table.
+    -l --list:       Displays the enumerated sequence position list.
     -v --version:    Displays the current version (Version 1.1). 
 
 SAVING OUTPUTS:
